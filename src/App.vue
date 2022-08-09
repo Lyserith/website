@@ -7,6 +7,7 @@
 		<Navbar />
 		<router-view />
 	</div>
+	<Open />
 </template>
 <style>
 	.grid-layout {
