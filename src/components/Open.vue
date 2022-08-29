@@ -5,7 +5,7 @@
         top: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
         z-index: -1;
-        animation: a 3s ease;
+        animation: a 2s ease;
     }
     .door {
         position: absolute;
@@ -14,7 +14,7 @@
         bottom: 0;
         background-color: #0093E9;
         background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-        animation: b 3s ease;
+        animation: b 2s ease;
 	}
     .other {
         top: 0;
@@ -25,7 +25,7 @@
         height: 100vh;
         background-color: #000000;
         z-index: -1;
-        animation: c 2s ease;
+        animation: c 1.2s ease;
     }
     @keyframes a {
         0% {
